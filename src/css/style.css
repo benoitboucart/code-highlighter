@@ -1,0 +1,48 @@
+/* Fira Code cfr view-source:https://carbon.now.sh */
+@font-face{
+  font-family:'Fira Code';
+  src:url('//cdn.rawgit.com/tonsky/FiraCode/1.204/distr/eot/FiraCode-Regular.eot');src:url('//cdn.rawgit.com/tonsky/FiraCode/1.204/distr/eot/FiraCode-Regular.eot') format('embedded-opentype'), url('//cdn.rawgit.com/tonsky/FiraCode/1.204/distr/woff2/FiraCode-Regular.woff2') format('woff2'), url('//cdn.rawgit.com/tonsky/FiraCode/1.204/distr/woff/FiraCode-Regular.woff') format('woff'), url('//cdn.rawgit.com/tonsky/FiraCode/1.204/distr/ttf/FiraCode-Regular.ttf') format('truetype');
+  font-weight:400;
+  font-style:normal;
+}
+
+code, kbd, pre, samp {
+  font-size: 24px;
+  font-variant-ligatures: contextual;
+  font-feature-settings: 'calt' 1;
+  /* user-select: none; */
+  /* font-family: "Fira Code", monospace; */
+  font-family: 'Roboto Condensed', monospace;
+}
+
+/* OVERRIDES HIGHLIGHTJS */
+.hljs {
+  color: #fff;
+}
+.hljs-keyword, .hljs-selector-tag {
+    color: #ff1be2;
+}
+/*
+.hljs-comment, .hljs-quote {
+  color: #e96ba8;
+}
+
+.hljs-meta {
+  color: #b9b6b0;
+}
+
+.hljs-keyword {
+    color: #ef6155;
+}
+
+.hljs-variable,
+
+.hljs-attr,
+.hljs-attribute,
+.hljs-property {
+  color: #48b685;
+}
+
+.hljs-string {
+  color: #fec418;
+} */
